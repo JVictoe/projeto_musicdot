@@ -54,6 +54,10 @@ figure{
     margin: 30px;
 }
 
+figure img {
+    width: 100%;
+}
+
 
 .matriz-musicdot {
     width: 300px;
@@ -64,7 +68,7 @@ figure{
 }
 
 figcaption{
-    margin: 10px
+    margin: 10px;
 }
 
 ul{
@@ -73,4 +77,15 @@ ul{
 
 ol{
     list-style-type: upper-alpha;
+}
+
+.figura-matriz{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figura-familia{
+    width: 275px;
+    float: right;
 }
