@@ -6,17 +6,45 @@ body{
     padding: 0px 200px;
 }
 
-div{
+/*div{
     border: 2px solid;
     border-color: red;
     width: 50px;
     height: 50px;
-}
+}*/
 
 img{
     width: inherit;
     height: inherit;
     
+}
+
+.contato-subtitulo {
+    display: inline;
+}
+
+.contato-info-titulo {
+    display: inline;
+}
+
+.contato-secao-correspondencia {
+    display: inline-block;
+}
+
+.contato-secao-telefone {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 32px;
+}
+
+.contato-info-descricao {
+    display: inline;
+    margin-left: 10px;
+}
+
+.contato-info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
 }
 
 .titulo {
@@ -28,7 +56,6 @@ img{
     text-align: left;
 }
 
-
 #titulo-principal{
     text-align: center;
 }
@@ -38,6 +65,12 @@ p{
     /* letter-spacing: 10px;
     line-height: 30px;
     word-spacing: 10px; */
+}
+
+
+span {
+    color: red;
+    background-color: blue;
 }
 
 .subtitulo{
