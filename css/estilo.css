@@ -4,6 +4,8 @@ body{
     /* background-color: lightgray; */
     width: 940px;
     padding: 0px 200px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /*div{
@@ -54,6 +56,21 @@ img{
     padding: 10px;
     color:blue;
     text-align: left;
+}
+
+.rodape {
+    padding: 1.75em 0;
+    font-size: 1.1em;
+}
+
+.rodape_logo {
+    width: 6em;
+}
+
+.rodape_copyright {
+    display: inline;
+    margin-left: 1em;
+
 }
 
 #titulo-principal{
