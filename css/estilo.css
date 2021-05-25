@@ -44,8 +44,10 @@
 
 @media (max-width: 622px){
     .figura-familia{
-        float: none;
-        margin: 0 auto;
+       
+        margin: 120px;
+        padding: auto;
+        align-content: center;
 
     }
 
@@ -64,7 +66,19 @@
     }
 
     .rodope{
-        
+        font-size: 0.92em;
+    }
+
+}
+
+@media (max-width: 342px){
+    .contato-info-titulo{
+        display: block;
+        margin-left: 5px;
+    }
+
+    .rodope{
+        font-size: 0.92em;
     }
 
 }
@@ -200,4 +214,248 @@ ol{
 .figura-familia{
     width: 275px;
     float: right;
+}
+
+@media (max-width: 639px)
+{
+    .cabecalho {
+        background-color: #272B3A87;
+        color: white
+        font-size: 0.6rem;
+        text-transform: uppercase;
+        letter-spacing: 0.23em;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        padding-left: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    }
+
+    .btn{
+        background-color: red;
+        border: none;
+        padding-top: 12px;
+        text-align: center;
+    }
+
+    
+
+    input {
+        padding-top: 10px;
+        color: black;
+        border-color: red
+    }
+
+    .logo {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .corp_logo {
+        text-align: center;
+        padding-top: 1px;
+    }
+
+    .center-content-cursos {
+        display: block;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .center-content-info {
+        text-align: center;
+        display: block;
+        padding-top: 20px;
+
+    }
+
+    .icon-svg {
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .test {
+    display: block;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    }
+}
+
+@media (min-width: 640px, max-width: 1199)
+{
+    .cabecalho {
+        background-color: #272B3A87;
+        color: white
+        font-size: 0.6rem;
+        text-transform: uppercase;
+        letter-spacing: 0.23em;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        padding-left: 50px;
+
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    }
+
+    div.container{
+            width: 400px;
+            background-color: #ccc;
+            height: auto;
+        }
+        div{
+            width: 100px;height: 100px;
+        }
+
+    .btn{
+        background-color: red;
+        border: none;
+        padding-top: 12px;
+        text-align: center;
+    }
+
+    .center-content-info {
+        float: right;
+
+    }
+
+    input {
+        padding-top: 10px;
+        color: black;
+        border-color: red
+    }
+
+    .logo {
+        padding-top: 20px;
+    }
+    div {
+        display: inline-block;
+    }
+
+    .corp_logo {
+        padding-top: 1px;
+    }
+
+    .center-content-cursos {
+        float: left;
+    }
+
+    .icon-svg {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .test {
+    display: block;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    }
+}
+
+@media (min-width: 1200px, max-width: 4000px)
+{
+    body {
+        background-color: red;
+    }
+
+    .btn{
+        background-color: red;
+        border: none;
+        padding-top: 12px;
+        text-align: center;
+    }
+
+    .center-content-info {
+        float: right;
+
+    }
+
+    input {
+        padding-top: 10px;
+        color: black;
+        border-color: red
+    }
+
+    .logo {
+        padding-top: 20px;
+    }
+    div {
+        display: inline-block;
+    }
+
+    .corp_logo {
+        padding-top: 1px;
+    }
+
+    .center-content-cursos {
+        float: left;
+    }
+
+    .icon-svg {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .test {
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    }
+    }
+}
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
